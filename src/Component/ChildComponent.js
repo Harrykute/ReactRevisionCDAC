@@ -6,7 +6,7 @@ const ChildComp = (props)=>{
                   <p> <strong>{props.id}</strong></p>
              <p> <strong>{props.name}</strong></p>
              <p><strong>{props.name}</strong></p>
-             <hr/>
+              <hr/>
              
              
     </div>

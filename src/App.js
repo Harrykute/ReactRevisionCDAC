@@ -8,6 +8,10 @@ import CircleTask from '../src/Component/Task/CircleTask';
 import UseStateHookComp from './Component/Hooks/UseStateHookComp';
 import ParentComp from './Component/ParentComponent';
 import ChildComp from './Component/ChildComponent';
+import MyNameComp from './Component/Task/MyComp1';
+import MyImageComp from './Component/MyImageComp';
+import ConrenComp from './Component/ConditionalRenComp';
+import ArrayObjComp from './Component/ArrayObjComp';
 function App() {
   return (
     <div className="App">
@@ -26,7 +30,7 @@ function App() {
         </a>
   </header>*/}
    
-    <h1>Welcome You All In react Session </h1>
+    <h1> Welcome You All In react Session </h1>
      {/*<FunctionComp/>
     <FunctionComp myName="panchashil" age={32}/>
     <ClassComp address="Pune" age ="32"/>
@@ -35,9 +39,15 @@ function App() {
      <MyStateComp /> 
      <MethodEventComp/>
      <CircleTask/>
-     <UseStateHookComp/>*/}
+     <UseStateHookComp/>
      <ParentComp/>
      <ChildComp/>
+     <CircleTask/>
+     <MyNameComp/>
+     <MyImageComp/>
+     <ConrenComp/>
+     <ArrayObjComp/>*/}
+     
     </div>
   );
 }
